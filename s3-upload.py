@@ -4,16 +4,6 @@ import os
 
 # S3 Uploader with Progress Bar
 
-'''
-To use this code you need to use AWS CLI. Type 'aws configure' on your terminal and paste your user
-acess key and your password key. If you don't have a user key you can made this on IAM > Users > 
-Create New User. Use the policies Billing and AdministratorAccess.
-
-The best way to make your datalake in AWS Cloud is using the us-east-1 in your buckets, because 
-if you try to integrate your buckets with other products in AWS (like EMR) maybe it can not
-work well.
-
-'''
 s3_response = boto3.resource('s3')
 
 
@@ -50,10 +40,3 @@ key = str(input('Type the name of your file in AWS S3: '))
 filename = str(input('Type the path of your file: '))
 
 upload_s3(bucket, key, filename)
-
-'''
-
-    You can comment or exclud the inputs if you want to use the function method, for example:   
-    upload_s3("datalake-enem2020-vinisiq", "teste", "data/kkkkk.txt") 
-
-'''
