@@ -9,7 +9,7 @@ s3_response = boto3.resource('s3')
 
 def upload_s3(bucket, key, filename):
     #Bucket: the name of your bucket on AWS S3
-    #Key: the name that you want to use on your bucket
+    #Key: the name that you want to use in your bucket
     #Filename: the name of the file here, in your machine
 
     file_size = os.stat(filename).st_size
