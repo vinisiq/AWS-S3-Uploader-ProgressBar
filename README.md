@@ -4,7 +4,7 @@
  ### AWS S3 Uploader with progress bar and detailed explanation of how to use it 
  
    To use this code you need to use AWS CLI. Type 'aws configure' on your terminal and paste your user
-   acess key and your password key. If you don't have a user key you can made this on IAM > Users > 
+   acess key and your password key. If you don't have an user key you can made this on IAM > Users > 
    Create New User. Use the policies Billing and AdministratorAccess.
 
    The best way to make your datalake in AWS Cloud is using the us-east-1 in your buckets, because 
