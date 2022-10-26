@@ -7,9 +7,7 @@
    acess key and your password key. If you don't have an user key you can made this on IAM > Users > 
    Create New User. Use the policies Billing and AdministratorAccess.
 
-   The best way to make your datalake in AWS Cloud is using the us-east-1 in your buckets, because 
-   if you try to integrate your buckets with other products in AWS (like EMR) maybe it can not
-   work well.
+
  
  ## Português | Portuguese:
  ### AWS S3 Uploader com barra de progresso e explicação detalhada de como utilizar
